@@ -1,6 +1,9 @@
 body {
   color: #474747;
 }
+html {
+  scroll-behavior: smooth;
+}
 .navbar {
   min-height: 100px;
   font-size: large;
