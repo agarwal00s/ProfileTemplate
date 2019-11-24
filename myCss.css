@@ -1,0 +1,51 @@
+body {
+  color: #474747;
+}
+.navbar {
+  min-height: 100px;
+  font-size: large;
+  font-weight: bold;
+}
+.navbar-nav > li {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+#navtextBlack {
+  color: #313131;
+}
+#navtextBlack:hover {
+  color: #50dcc5;
+  border-bottom: 1px solid black;
+}
+#navtextBlack:active {
+  color: #50dcc5;
+}
+#helloIm {
+  background-color: #50dcc5;
+  color: white;
+  padding: 10px;
+  border-radius: 20px 20px 20px 0px;
+  font-weight: bold;
+  text-align: center;
+}
+#socialBox {
+  color: black;
+  padding: 10px 15px 10px 15px;
+}
+#socialBox:hover {
+  color: #50dcc5;
+  background-color: #313131;
+  border-radius: 5px;
+}
+#downloadCV {
+  color: white;
+  background-color: #50dcc5;
+  border-radius: 30px;
+  font-weight: bold;
+}
+#projectscard {
+  min-height: 295px;
+}
+#projectscard2 {
+  min-height: 320px;
+}
