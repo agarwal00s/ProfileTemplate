@@ -15,29 +15,35 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-light navbar-expand-md bg-white justify-content-center"
-    style="position: fixed; width:100%;z-index: 1;">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" id="navtextBlack" href="#home">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" id="navtextBlack" href="#about">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" id="navtextBlack" href="#skills">Skills</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" id="navtextBlack" href="#experience">Experiences</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" id="navtextBlack" href="#project">Projects</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" id="navtextBlack" href="#contact">Contact</a>
-      </li>
-    </ul>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+      aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo03">
+      <ul class="navbar-nav nav-fill py-3">
+        <li class="nav-item px-3">
+          <h5><a class="nav-link" id="navtextBlack" href="#home">Home</a></h5>
+        </li>
+        <li class="nav-item px-3">
+          <h5><a class="nav-link" id="navtextBlack" href="#about">About</a></h5>
+        </li>
+        <li class="nav-item px-3">
+          <h5><a class="nav-link" id="navtextBlack" href="#skills">Skills</a></h5>
+        </li>
+        <li class="nav-item px-3">
+          <h5><a class="nav-link" id="navtextBlack" href="#experience">Experiences</a></h5>
+        </li>
+        <li class="nav-item px-3">
+          <h5><a class="nav-link" id="navtextBlack" href="#project">Projects</a></h5>
+        </li>
+        <li class="nav-item px-3">
+          <h5><a class="nav-link" id="navtextBlack" href="#contact">Contact</a></h5>
+        </li>
+    </div>
   </nav>
+
 
   <div class="container">
     <div class="row" id="home">
@@ -88,121 +94,176 @@
                 class="fa fa-twitter"></i></a></div>
         </div>
       </div>
-      <div class="col-md-6" style="margin-top: 255px;">
+      <div class="col-md-6" style="margin-top: 200px;">
         <div
           style="margin-left:75px;position:absolute;border-radius:50%;border: 20px solid #EFEFEF;height: 100%;width: 65%;">
-          <div style="border-radius:50%;border: 20px solid #D8D8D8;height: 100%;width: 100%;">
-            <img src="./profile_img.jpg" style="border-radius:50%;height: 100%;width: 100%;" />
+          <div class="h-100 w-100" style="border-radius:50%;border: 20px solid #D8D8D8;;">
+            <img class="h-100 w-100" src="./profile_img.jpg" style="border-radius:50%;" />
           </div>
         </div>
       </div>
     </div>
     <div class="row" id="about">
-      <div class="col-md-6 px-0" style="margin-top: 200px;">
-        <img src="./ab-img.png" class="image-fluid mt-4" style="height: 95%;width: 100%;" />
+      <div class="col-md-6" style="margin-top: 200px;">
+        <img src="./ab-img.png" class="image-fluid pt-5 h-95 w-100" />
       </div>
       <div class="col-md-6" style="margin-top: 200px;">
-        <div class="col-md-12 ml-5">
-          <h2>About Me</h2>
+        <div class="row pt-2">
+          <div class="col-md-4 offset-md-1">
+            <h2>About Me</h2>
+          </div>
         </div>
-        <div class="col-md-12 ml-5 mt-4">
-          <h6>
-            Hello, I'm Sourav, currently working with Infosys as a Front-End
-            Developer. I'm a coding enthusiast who always wants to find the
-            Effective logic for a particular problem. Also I am good at
-          </h6>
+        <div class="row">
+          <div class="col-md-11 pt-4 offset-md-1">
+            <h6>
+              Hello, I'm Sourav, currently working with Infosys as a Front-End
+              Developer. I'm a coding enthusiast who always wants to find the
+              Effective logic for a particular problem. Also I am good at
+            </h6>
+          </div>
         </div>
-        <div class="col-md-12 ml-5 mt-5">
-          <span class="px-3 py-1" style="border: 1px solid #50dcc5;border-radius: 5px;">Html</span>
-          <span class="px-3 py-1 ml-3" style="border: 1px solid #50dcc5;border-radius: 5px;">CSS</span>
-          <span class="px-3 py-1 ml-3" style="border: 1px solid #50dcc5;border-radius: 5px;">Bootstrap</span>
-          <span class="px-3 py-1 ml-3" style="border: 1px solid #50dcc5;border-radius: 5px;">JavaScript</span>
-          <span class="px-3 py-1 ml-3" style="border: 1px solid #50dcc5;border-radius: 5px;">React</span>
+        <div class="row mt-4">
+          <div class="col-md-2 offset-md-1">
+            <div class="py-1 text-center" style="border: 1px solid #50dcc5;border-radius: 5px;">Html</div>
+          </div>
+          <div class="col-md-2">
+            <div class="py-1 text-center" style="border: 1px solid #50dcc5;border-radius: 5px;">CSS</div>
+          </div>
+          <div class="col-md-3">
+            <div class="py-1 text-center" style="border: 1px solid #50dcc5;border-radius: 5px;">Bootstrap</div>
+          </div>
+          <div class="col-md-3">
+            <div class="py-1 text-center" style="border: 1px solid #50dcc5;border-radius: 5px;">Javascript</div>
+          </div>
         </div>
-        <div class="col-md-12 ml-5 mt-4">
-          <span class="px-3 py-1" style="border: 1px solid #50dcc5;border-radius: 5px;">Redux</span>
-          <span class="px-3 py-1 ml-3" style="border: 1px solid #50dcc5;border-radius: 5px;">Jest</span>
-          <span class="px-3 py-1 ml-3" style="border: 1px solid #50dcc5;border-radius: 5px;">Java</span>
-          <span class="px-3 py-1 ml-3" style="border: 1px solid #50dcc5;border-radius: 5px;">Python</span>
-          <span class="px-3 py-1 ml-3" style="border: 1px solid #50dcc5;border-radius: 5px;">SQL</span>
+        <div class="row mt-3">
+          <div class="col-md-2 offset-md-1">
+            <div class="py-1 text-center" style="border: 1px solid #50dcc5;border-radius: 5px;">React</div>
+          </div>
+          <div class="col-md-2">
+            <div class="py-1 text-center" style="border: 1px solid #50dcc5;border-radius: 5px;">Redux</div>
+          </div>
+          <div class="col-md-2">
+            <div class="py-1 text-center" style="border: 1px solid #50dcc5;border-radius: 5px;">Jest</div>
+          </div>
+          <div class="col-md-2">
+            <div class="py-1 text-center" style="border: 1px solid #50dcc5;border-radius: 5px;">Java</div>
+          </div>
+          <div class="col-md-2">
+            <div class="py-1 text-center" style="border: 1px solid #50dcc5;border-radius: 5px;">Python</div>
+          </div>
         </div>
-        <div class="col-md-12 ml-5 mt-4">
-          <span class="px-3 py-1" style="border: 1px solid #50dcc5;border-radius: 5px;">MongoDB</span>
-          <span class="px-3 py-1 ml-3" style="border: 1px solid #50dcc5;border-radius: 5px;">Express.js</span>
-          <span class="px-3 py-1 ml-3" style="border: 1px solid #50dcc5;border-radius: 5px;">Node.js
-          </span>
+        <div class="row mt-3">
+          <div class="col-md-2 offset-md-1">
+            <div class="py-1 text-center" style="border: 1px solid #50dcc5;border-radius: 5px;">SQL</div>
+          </div>
+          <div class="col-md-3">
+            <div class="py-1 text-center" style="border: 1px solid #50dcc5;border-radius: 5px;">MongoDB</div>
+          </div>
+          <div class="col-md-3">
+            <div class="py-1 text-center" style="border: 1px solid #50dcc5;border-radius: 5px;">Express.js</div>
+          </div>
+          <div class="col-md-2">
+            <div class="py-1 text-center" style="border: 1px solid #50dcc5;border-radius: 5px;">Node.js</div>
+          </div>
         </div>
-        <div class="col-md-5 ml-5 mt-5">
-          <div class="px-4 py-2" id="downloadCV">
-            <a href="./Sourav Resume.pdf" style="color:white;text-decoration:none;" target="_blank" download>Download CV
+        <div class="row mt-4 pl-3">
+          <div class="col-md-4 offset-md-1 px-3 py-2" id="downloadCV">
+            <a href="./Sourav Resume.pdf" style="color:white;text-decoration:none;" target="_blank" download>Download
+              CV
               <i class="fa fa-download pl-3"></i></a>
           </div>
         </div>
+
       </div>
     </div>
     <div class="row" id="skills">
-      <div class="col-md-6" style="margin-top:200px;">
-        <div class="col-md-12" style="text-align: center;">
-          <h3>Technical Skills</h3>
-        </div>
-        <div class="col-md-12 px-5" style="margin-top:60px">
-          <span style="display: inline;font-size: small;font-weight: bold;">Javascript</span>
-          <span style="float: right;font-size: small;">80%</span>
-        </div>
-        <div class="col-md-12 px-5 mt-2">
-          <div class="progress" style="background-color: #8C8C8C;height: 7px;">
-            <div class="progress-bar" role="progressbar" style="width: 80%;background-color: #50dcc5;"
-              aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+      <div class="col-md-6 px-4" style="margin-top:200px;">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h3>Technical Skills</h3>
           </div>
         </div>
-        <div class="col-md-12 px-5 mt-3">
-          <span style="display: inline;font-size: small;font-weight: bold;">React</span>
-          <span style="float: right;font-size: small;">75%</span>
-        </div>
-        <div class="col-md-12 px-5 mt-2">
-          <div class="progress" style="background-color: #8C8C8C;height: 7px;">
-            <div class="progress-bar" role="progressbar" style="width: 75%;background-color: #50dcc5;"
-              aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+        <div class="row">
+          <div class="col-md-12 px-5" style="margin-top:60px">
+            <span style="display: inline;font-size: small;font-weight: bold;">Javascript</span>
+            <span style="float: right;font-size: small;">80%</span>
           </div>
         </div>
-        <div class="col-md-12 px-5 mt-3">
-          <span style="display: inline;font-size: small;font-weight: bold;">Redux</span>
-          <span style="float: right;font-size: small;">60%</span>
-        </div>
-        <div class="col-md-12 px-5 mt-2">
-          <div class="progress" style="background-color: #8C8C8C;height: 7px;">
-            <div class="progress-bar" role="progressbar" style="width: 60%;background-color: #50dcc5;"
-              aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+        <div class="row">
+          <div class="col-md-12 px-5 mt-2">
+            <div class="progress" style="background-color: #8C8C8C;height: 7px;">
+              <div class="progress-bar" role="progressbar" style="width: 80%;background-color: #50dcc5;"
+                aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
           </div>
         </div>
-        <div class="col-md-12 px-5 mt-3">
-          <span style="display: inline;font-size: small;font-weight: bold;">Java</span>
-          <span style="float: right;font-size: small;">30%</span>
-        </div>
-        <div class="col-md-12 px-5 mt-2">
-          <div class="progress" style="background-color: #8C8C8C;height: 7px;">
-            <div class="progress-bar" role="progressbar" style="width: 30%;background-color: #50dcc5;"
-              aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+        <div class="row">
+          <div class="col-md-12 px-5 mt-3">
+            <span style="display: inline;font-size: small;font-weight: bold;">React</span>
+            <span style="float: right;font-size: small;">75%</span>
           </div>
         </div>
-        <div class="col-md-12 px-5 mt-3">
-          <span style="display: inline;font-size: small;font-weight: bold;">Python</span>
-          <span style="float: right;font-size: small;">50%</span>
+        <div class="row">
+          <div class="col-md-12 px-5 mt-2">
+            <div class="progress" style="background-color: #8C8C8C;height: 7px;">
+              <div class="progress-bar" role="progressbar" style="width: 75%;background-color: #50dcc5;"
+                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
         </div>
-        <div class="col-md-12 px-5 mt-2">
-          <div class="progress" style="background-color: #8C8C8C;height: 7px;">
-            <div class="progress-bar" role="progressbar" style="width: 50%;background-color: #50dcc5;"
-              aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+
+        <div class="row">
+          <div class="col-md-12 px-5 mt-3">
+            <span style="display: inline;font-size: small;font-weight: bold;">Redux</span>
+            <span style="float: right;font-size: small;">60%</span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 px-5 mt-2">
+            <div class="progress" style="background-color: #8C8C8C;height: 7px;">
+              <div class="progress-bar" role="progressbar" style="width: 60%;background-color: #50dcc5;"
+                aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 px-5 mt-3">
+            <span style="display: inline;font-size: small;font-weight: bold;">Java</span>
+            <span style="float: right;font-size: small;">30%</span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 px-5 mt-2">
+            <div class="progress" style="background-color: #8C8C8C;height: 7px;">
+              <div class="progress-bar" role="progressbar" style="width: 30%;background-color: #50dcc5;"
+                aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 px-5 mt-3">
+            <span style="display: inline;font-size: small;font-weight: bold;">Python</span>
+            <span style="float: right;font-size: small;">50%</span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 px-5 mt-2">
+            <div class="progress" style="background-color: #8C8C8C;height: 7px;">
+              <div class="progress-bar" role="progressbar" style="width: 50%;background-color: #50dcc5;"
+                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-md-6" style="margin-top:200px;">
-        <div class="col-md-12" style="margin-left:35%;">
-          <h3>Professional Skills</h3>
+      <div class="col-md-6 px-4" style="margin-top:200px;">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h3>Professional Skills</h3>
+          </div>
         </div>
         <div class="row">
-          <div class="col-md-3"></div>
-          <div class="col-md-3" style="margin-top:40px">
+          <div class="col-md-3 offset-md-2" style="margin-top:40px">
             <div data-progress="55" style="position: relative;">
               <svg viewBox="0 0 100 100">
                 <path d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95" stroke="#8C8C8C"
@@ -237,8 +298,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-3"></div>
-          <div class="col-md-3" style="margin-top:20px">
+          <div class="col-md-3 offset-md-2" style="margin-top:20px">
             <div data-progress="55" style="position: relative;">
               <svg viewBox="0 0 100 100">
                 <path d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95" stroke="#8C8C8C"
@@ -312,7 +372,7 @@
         </div>
       </div>
     </div>
-    <div class="row" id="project" style="margin-bottom: 300px;">
+    <div class="row" id="project">
       <div class="col-md-6" style="margin-top:100px;">
         <h3>Projects</h3>
         <div class="row">
@@ -406,6 +466,37 @@
                 <a href="https://github.com/agarwal00s/Connect" target="_blank"
                   style="text-decoration: none; color:#313131">View Source Code</a>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row" id="contact" style="margin-top: 200px;margin-bottom: 50px;">
+      <div class="col-md-12 text-center">
+        <h3>Contact Me</h3>
+      </div>
+      <div class="col-md-4 card mt-5" style="border: none;">
+        <div class="card-body text-center" style="box-shadow: 1px 1px 6px 4px rgba(239,239,239,0.68);">
+          <div class="mx-auto" style="border-radius: 50%;border: 1px solid #50dcc5; height:100px;width:100px">
+            <div class="h-100 w-100"><i class="fa fa-location-arrow my-auto h-100 w-100" style="padding-top: 40%;"></i>
+            </div>
+            <h4 class="mt-2">Address</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 card mt-5" style="border: none;">
+        <div class="card-body text-center" style="box-shadow: 1px 1px 6px 4px rgba(239,239,239,0.68);">
+          <div class="mx-auto" style="border-radius: 50%;border: 1px solid #50dcc5; height:100px;width:100px">
+            <div class="h-100 w-100"><i class="fa fa-envelope-o my-auto h-100 w-100" style="padding-top: 40%;"></i>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 card mt-5" style="border: none;">
+        <div class="card-body text-center" style="box-shadow: 1px 1px 6px 4px rgba(239,239,239,0.68);">
+          <div class="mx-auto" style="border-radius: 50%;border: 1px solid #50dcc5; height:100px;width:100px">
+            <div class="h-100 w-100"><i class="fa fa-phone my-auto h-100 w-100" style="padding-top: 40%;"></i>
             </div>
           </div>
         </div>

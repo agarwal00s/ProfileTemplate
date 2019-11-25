@@ -6,24 +6,12 @@ html {
   scroll-behavior: smooth;
 }
 
-.navbar {
-  min-height: 100px;
-  font-size: large;
-  font-weight: bold;
-}
-
-.navbar-nav>li {
-  margin-left: 15px;
-  margin-right: 15px;
-}
-
 #navtextBlack {
-  color: #313131;
+  color: #474747;
 }
 
 #navtextBlack:hover {
   color: #50dcc5;
-  border-bottom: 1px solid black;
 }
 
 #navtextBlack:active {
