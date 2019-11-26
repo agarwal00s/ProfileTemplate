@@ -20,12 +20,11 @@ html {
 
 #helloIm {
   background-color: #50dcc5;
-  color: white;
   border-radius: 20px 20px 20px 0px;
 }
 
 #socialBox {
-  color: black;
+  color: #313131;
   padding: 10px 15px 10px 15px;
 }
 
