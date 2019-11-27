@@ -49,3 +49,20 @@ html {
 #projectscard2 {
   min-height: 320px;
 }
+@media (min-width: 992px) {
+  .mt150 {
+    margin-top: 150px;
+  }
+  .mt125 {
+    margin-top: 125px;
+  }
+  .mt200 {
+    margin-top: 200px;
+  }
+  .mt225 {
+    margin-top: 225px;
+  }
+  .mt240 {
+    margin-top: 240px;
+  }
+}
