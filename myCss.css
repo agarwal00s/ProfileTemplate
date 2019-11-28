@@ -1,6 +1,6 @@
 body {
   color: #474747;
-  padding-top: 6rem;
+  padding-top: 5rem;
 }
 
 html {
@@ -50,6 +50,10 @@ html {
   min-height: 320px;
 }
 @media (min-width: 992px) {
+  body {
+    color: #474747;
+    padding-top: 6rem;
+  }
   .mt150 {
     margin-top: 150px;
   }
@@ -64,5 +68,10 @@ html {
   }
   .mt240 {
     margin-top: 240px;
+  }
+}
+@media (max-width: 576px) {
+  .mt50 {
+    margin-top: 50px;
   }
 }
